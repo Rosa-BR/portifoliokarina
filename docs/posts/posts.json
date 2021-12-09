@@ -15,5 +15,22 @@
     "preview": {},
     "last_modified": "2021-12-09T00:12:24-03:00",
     "input_file": {}
+  },
+  {
+    "path": "posts/2021-12-09-ttulo-do-meu-primeiro-post/",
+    "title": "Hello Portifólio",
+    "description": "Hello World do portifólio",
+    "author": [
+      {
+        "name": "Karina Rosa da Silveira",
+        "url": "https://rosa-br.github.io/portifoliokarina/"
+      }
+    ],
+    "date": "2021-12-09",
+    "categories": [],
+    "contents": "\r\nDistill is a publication format for scientific and technical writing, native to the web.\r\nLearn more about using Distill at https://rstudio.github.io/distill.\r\nEsse é o meu primeiro projeto no portifólio.\r\n\r\n\r\n\r\n",
+    "preview": {},
+    "last_modified": "2021-12-09T01:10:05-03:00",
+    "input_file": "ttulo-do-meu-primeiro-post.knit.md"
   }
 ]
