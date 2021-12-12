@@ -23,6 +23,90 @@ Learn more about using Distill at <https://rstudio.github.io/distill>.
 Esse é o meu primeiro projeto no portifólio.
 
 
+*Esse* é o meu **primeiro projeto** no portifólio.
+
+~~Riscar~~
+
+
+
+Formatar um texto como código: `usethis::use_git()`
+
+Como colocar um link?  [descrição](endereço link)
+
+Lista não numerada
+
+- 1
+    - subitem tab tab
+- 2
+- 3
+
+Lista numerada (ele numera na ordem)
+
+1. a
+1. b
+1. c
+
+## Lista
+### Lista
+#### Lista
+
+Imagem
+
+copiar endereço da imagem
+
+![descrição da imagem para acessibilidade](link da imagem)
+
+
+## Código em R
+
+# chunk (c verdinho no menu - clicar em insert R)
+
+```{r echo=TRUE}
+# aqui a gente coloca o código em R
+
+1+1
+```
+### Clicando na engrenagem e colocando "show code and output" aparece o código e a saída, se não aparece só a saída
+### Se quiser esconder alguma mensagem ou aviso que aparece, clica na engrenagem e desmarca "show warnings" e "show messages"
+
+
+Criamos um campo de código
+
+
+Tabela:
+ideal para tabelas pequenas, evitar para tabelas grandes
+
+```{r}
+knitr::kable(mtcars)
+```
+
+Imagem/gráfico
+
+```{r}
+plot(mtcars$mpg, mtcars$hp)
+```
+
+
+Uma das opções para Formatar a imagem
+# out.width para tamanho, fig.align para centralização, dpi para melhorar a qualidade, fig.cap para legenda
+# específico para distill -> layout="l.screen" gráfico vai ocupar toda a largura da página/ layout="l.body-outset" um pouco maior que o espaço disponível
+
+```{r, out.width="90%", fig.align='center', dpi=300, fig.cap="Gráfico da base mtcars"}
+plot(mtcars$mpg, mtcars$hp)
+```
+
+# OBS: global options -> code -> saving -> melhor opção é deixar em UTF-8
+
+melhor que copiar e colar:
+
+Hoje é o dia `r Sys.Date()`
+
+
+
+
+
+
+
 
 
 
